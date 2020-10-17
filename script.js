@@ -19,7 +19,7 @@ var euroLottoAdditionalsCount = 2;
 // var sixOf49LottoAdditionalsMax = 10;
 // var sixOf49LottoAdditionalsCount = 2;
 
-// ??
+
 function createNumber(maxRange) {
     var number = Math.ceil(Math.random() * maxRange);
     console.log(number);
@@ -69,8 +69,4 @@ btn_generateRandomNumbersEuroLotto.addEventListener('click', function() {
     numbers.append(` | ${ret2}`);
 });
 
-// Create button for generating additional numbers (Zusatzzahlen)
-var btn_generateRandomNumbersSixOf49 = document.getElementById('btn_generateRandomNumbersSixOf49');
-btn_generateRandomNumbersSixOf49.addEventListener('click', function() {
-    alert('TEST');
-});
+
